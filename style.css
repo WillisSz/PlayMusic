@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3f3f3f;
+    color: #dddddd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.description {
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.duration {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.bar {
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 6px;
+    width: 0;
+    background-color: #333333;
+}
+
+.score {
+    width: 20px;
+    height: 20px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.temp {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-play, .button-pauseplay {
+    width: 50px;
+    cursor: pointer;
+    height: 40px;
+
+}
+
+.button-arrows {
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.button-pauseplay {
+    display: none;
+}
